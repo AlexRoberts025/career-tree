@@ -1,0 +1,189 @@
+html{
+    background-color: rgb(51, 51, 51);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+/*Header for Associate Programmer*/
+.header {
+  background-image: radial-gradient(rgb(208, 20, 255), rgb(96, 96, 99));
+  border-width: 1%;
+  border-style: outset;
+  border-color:rgb(48, 47, 47);
+  padding: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-size: 250%;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  text-shadow: black 2px 2px 5px;
+}
+
+
+/*Navigation Center*/
+.nav {
+    text-align: center;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    margin: 1%;
+    padding:2px;
+    overflow: hidden;
+    background-color:rgb(88, 88, 88);
+    box-shadow: 0 4px 8px 0 rgba(61, 60, 60, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: center;
+    border-radius: 12px;
+}
+.con {
+    display:grid;
+    align-items: center;
+    grid-template-columns: auto 50%;
+    grid-area: 1/span 1/1/span 3;
+    width: auto;
+    background-color: rgb(70, 67, 67);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2%;
+    justify-content: space-evenly;
+    border-radius:5px;
+    text-shadow: black 2px 2px 2px;
+  }
+
+a {
+  text-decoration: none;
+}
+.con:hover {
+    background-color: rgb(122, 119, 113);
+    color:#333;
+    font-size: 140%;
+}
+
+.img {
+    width: 35%;
+    padding:1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imgh {
+    width: 70%;
+    padding:1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imgo {
+    width: 45%;
+    padding:1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+  /*Content Style*/
+.content {
+  display:grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: auto auto;
+  background-color: rgb(51, 51, 51);
+  width:auto;
+  justify-content: space-around;
+}
+
+.titlecc {
+  grid-area:1/1;
+  background-color: rgb(208, 20, 255);
+  color:white;
+  text-shadow: black 2px 2px 2px;
+  border-radius: 10px;
+  padding:2%;
+  font-size: 250%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin:2%;
+}
+
+.titlelife {
+  grid-area: 1/2;
+  background-color: rgb(208, 20, 255);
+  color:white;
+  text-shadow: black 2px 2px 2px;
+  border-radius: 10px;
+  padding:2%;
+  font-size: 250%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 2%;
+}
+
+.cc {
+  display:grid;
+  grid-template-rows: auto auto;
+  grid-template-columns:  auto auto;
+  padding: 4px;
+}
+
+.edu {
+  background-color: rgb(122, 119, 113, .2);
+  border-radius: 10px;
+  padding:5px;
+  margin: 1%;
+}
+.salary {
+  background-color: rgb(122, 119, 113, .2);
+  border-radius: 10px;
+  padding:5px;
+  margin: 1%;
+}
+.workforce {
+  background-color: rgb(122, 119, 113, .2);
+  border-radius: 10px;
+  padding:5px;
+  margin: 1%;
+}
+.growth {
+  background-color: rgb(122, 119, 113, .2);
+  border-radius: 10px;
+  padding:5px;
+  margin: 1%;
+}
+
+.life{
+  display:grid;
+  grid-template-columns:  auto auto;
+  padding: 4px;
+}
+
+.exp {
+  background-color: rgb(122, 119, 113, .2);
+  border-radius: 10px;
+  padding:5px;
+  margin: 1%;
+}
+
+.lstyle {
+  background-color: rgb(122, 119, 113, .2);
+  border-radius: 10px;
+  padding:5px;
+  margin: 1%;
+}
+  /*Text Colors for Career Names*/
+  .entry {
+    color:rgb(0, 170, 170);
+  }
+  .tech{
+    color:rgb(208, 20, 255);
+    text-shadow: rgb(0, 0, 0) 2px 2px 10px;
+  }
+  .prof {
+    color: rgb(4, 202, 53);
+  }
+  .outlook {
+      color:rgb(32, 71, 187);
+      font-size: 180%;
+  }
+  .white {
+    color: white;
+    font-size:125%;
+    text-align: center;
+  }
+  .whitel {
+    color: white;
+    font-size:125%;
+  }

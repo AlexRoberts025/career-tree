@@ -1,0 +1,86 @@
+html{
+    background-color: rgb(70, 67, 67);
+    font-family: 'Bebas Neue', sans-serif;
+}
+/*Header + Text Styling for the Header*/
+.header {
+    background-image: radial-gradient(rgb(105, 105, 110) 60%, rgb(4, 126, 197));
+    border-width: 1%;
+    border-style: outset;
+    border-color:darkslategray;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    padding: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.htext {
+  text-align: center;
+  font-size: 300%;
+  text-shadow: white 2px 2px 2px;
+}
+.htext2 {
+  text-align: center;
+  font-size: 300%;
+  color:white;
+  text-shadow: black 2px 2px 2px;
+}
+/*Navigation Bar (Most of the initial page, 3 boxes for each of the three career levels)*/
+.nav {
+    text-align: center;
+    display:grid;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 2%;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+.con {
+  display:grid;
+  align-items: center;
+  grid-template-columns: auto 50%;
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 2%;
+  border-radius: 8px;
+}
+
+.img {
+  width: 50%;
+  padding:1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imgh {
+  width: 70%;
+  padding:1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text {
+  text-align: center;
+  padding: 10px 20px;
+  color:white;
+  text-shadow: black 2px 2px 2px;
+}
+
+a:hover {
+  background-color: rgb(122, 119, 113);
+  color:#333;
+  font-size: 118%;
+}
+
+/*Text Colors for Career Names*/
+.entry {
+  color:rgb(0, 170, 170);
+}
+.tech{
+  color:rgb(208, 20, 255);
+}
+.prof {
+  color: rgb(4, 202, 53);
+}
